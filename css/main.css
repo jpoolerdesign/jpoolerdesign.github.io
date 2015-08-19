@@ -2,6 +2,6 @@ body{
 	background-color: DarkCyan;
 }
 
-p{
+p, h1{
 	color:PaleTurquoise;
 }
