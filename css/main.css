@@ -2,6 +2,10 @@ body{
 	background-color: DarkCyan;
 }
 
-p, h1{
+h1{
+	color:Gainsboro;
+}
+
+p{
 	color:PaleTurquoise;
 }
