@@ -1,0 +1,42 @@
+body{
+	font-family: "Gill Sans", Helvetica, sans-serif;
+	text-align: center;
+	background: url("../img/bgtexture-duo.jpg");
+	background-size: cover;
+	padding: 1%;
+	color: #636466;
+}
+
+div{
+	background: #fff;
+	padding: 20px;
+	padding-left: 25%;
+	padding-right: 25%;
+	box-shadow: 0 0 12px #000000;
+}
+
+
+h1{
+	color: rgba(0,0,0,.2);
+	font-weight: normal;
+}
+
+#slogan{
+	font-style: italic;
+	font-size: 20px;
+	color: #003777;
+}
+
+ul{
+	list-style: none;
+	padding-left: 0;
+}
+
+li{
+	color: #003777;
+}
+
+a{
+	text-decoration: none;
+	color: #003777;
+}
