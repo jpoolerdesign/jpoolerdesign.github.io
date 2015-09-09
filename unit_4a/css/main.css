@@ -1,0 +1,59 @@
+/*Imported fonts */
+
+@import url(https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Just+Another+Hand);
+@import url(https://fonts.googleapis.com/css?family=Satisfy);
+
+/*
+Color Guide
+	#636466 = dark gray
+	#003777 = logo blue
+*/
+
+
+body{
+	font-family: "PT Serif", Helvetica, serif;
+	text-align: center;
+	background: url("../img/bgtexture-duo.jpg");
+	background-size: cover;
+	padding: 1%;
+	color: #636466;
+}
+
+div{
+	background: #fff;
+	padding: 20px;
+	padding-left: 25%;
+	padding-right: 25%;
+	box-shadow: 0 0 12px #000000;
+}
+
+h1{
+	color: rgba(0,0,0,.2);
+	font-weight: normal;
+}
+
+ul{
+	list-style: none;
+	padding-left: 0;
+}
+
+li{
+	color: #003777;
+}
+
+a{
+	text-decoration: none;
+	color: #003777;
+}
+
+#slogan{
+	font-family: Satisfy, "PT Serif", Helvetica, serif;
+	font-style: italic;
+	font-size: 25px;
+	color: #003777;
+}
+
+.portfolio{
+	padding: 0.5%;
+}
