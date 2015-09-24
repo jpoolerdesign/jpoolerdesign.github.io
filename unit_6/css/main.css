@@ -1,8 +1,9 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic);
+@import url(https://fonts.googleapis.com/css?family=Covered+By+Your+Grace);
+@import url(https://fonts.googleapis.com/css?family=Passion+One);
+
 /* CSS Reset */
 * { margin:0; padding:0; box-sizing:border-box; }
-
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic);
-@import url(http://fonts.googleapis.com/css?family=Covered+By+Your+Grace);
 
 body{
 	font-family: "Open Sans", sans-serif;
@@ -10,72 +11,84 @@ body{
 	max-width: 90%;
 	margin: auto;
 }
-
 section{
 	max-width: 75%; 
 	margin: 2em 0em;
 	float: left;
 	border-right: 2px solid #555;
 }
-
 header{
 	background-color: #555;
 	padding: 2em;
 }
-
-h2, h3, h4{
-	font-weight: 800;
+h1{
+	font-family: "Passion One", "Open Sans", sans-serif;
+	letter-spacing: 2px;
+	font-size: 3.5em;
+	text-transform: uppercase;
 }
-
+h2, h3, h4{
+	font-family: "Passion One", "Open Sans", sans-serif;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+h2{
+	font-size: 2em;
+}
+h3{
+	font-size: 1.5em;
+}
+h2, h3{
+	background-color: #444;
+	padding: .5em;
+}
+p a{
+	font-style: italic;
+}
+#logo{
+	width: 75px;
+	float: left;
+	margin: 0 1em 1em 0;
+}
 #slogan{
 	font-family: "Covered By Your Grace", "Open Sans", sans-serif;
+	font-size: 1.5em;
 }
-
 .level1, .level2, .level3{
 	float: left;
 	padding: 0 1em 1em 1em;
 }
-
 .blogintro{
 	padding-top: .5em;
 }
-
 .level1{
 	max-width: 100%;
 	/* background-color: yellow; */
 }
-
 .level2{
 	max-width: 66%;
 	/* background-color: red; */
 }
-
 .level3{
 	max-width: 33%;
 	/* background-color: green; */
 }
-
 .imagewrap{
 	float: left;
 	margin-right: .5em;
 }
-
 .level1 img{
 	width: 66%;
 }
-
 .level2 img{
 	width: 50%;
 }
-
 .level3 img{
 	width: 100%;
 }
-
 a{
 	text-decoration: none;
 }
-
 aside{
 	float: left;
 	width: 25%;
@@ -84,21 +97,13 @@ aside{
 	margin: 2em 0em;
 	/* background-color: orange; */
 }
-
-h2, h3{
-	background-color: #444;
-	padding: 1em;
-}
-
 aside img{
 	width: 100%;	
 }
-
 ul{
 	list-style: none;
 	padding-left: 0;
 }
-
 .clearfix:after { 
 	content: "."; 
 	visibility: hidden; 
@@ -106,12 +111,11 @@ ul{
 	height: 0; 
 	clear: both;
 }
-
 footer{
 	clear: both;
 	width: 100%;
 	text-align: center;
 	padding: 1em;
-	background-color: red;
+	background-color: #555;
 }
 
