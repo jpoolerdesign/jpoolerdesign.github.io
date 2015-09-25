@@ -34,7 +34,20 @@ section{
 }
 header{
 	background-color: rgb(0,130,178);
-	padding: 2em;
+	padding: 2em 2em 1em 2em;
+}
+nav{
+	margin-top: 1em;
+}
+nav a{
+	margin: .5em 2em .5em 0;
+}
+nav a:link, nav a:visited{
+	color: rgba(256,256,256,.75);
+}
+nav a:active, nav a:hover{
+	text-decoration: underline;
+	color: rgb(67,204,255);
 }
 h1{
 	font-family: "Passion One", "Open Sans", sans-serif;
@@ -66,9 +79,9 @@ h4{
 	margin-bottom: .25em;
 }
 #logo{
-	width: 75px;
+	width: 90px;
 	float: left;
-	margin: 0 1em 1em 0;
+	margin: 0 1em 1.5em 0;
 }
 #slogan{
 	font-family: "Covered By Your Grace", "Open Sans", sans-serif;
@@ -124,7 +137,7 @@ h4{
 	height: 125px;
 }
 #archive{
-	background: rgb(255,167,72);
+	background: rgba(178,100,14,1);
 	padding: 1.25em;
 }
 #gallery h4, #popularbefore h4, #populartips h4{
@@ -166,12 +179,28 @@ footer{
 	padding: 1em;
 	background-color: rgb(67,204,255);
 }
-p a{
-	font-style: italic;
-}
 a{
 	text-decoration: none;
 }
-a:active, a:hover, a:visited, a{
+.level1 a:link, .level1 a:visited, .level2 a:link, .level2 a:visited, .level3 a:link, .level3 a:visited{
 	color: #fff;
 }
+.level1 a:active, .level1 a:hover, .level2 a:active, .level2 a:hover, .level3 a:active, .level3 a:hover{
+	color: rgb(0,130,178);
+}
+.blogintro a:link, .blogintro a:visited{
+	font-style: italic;
+	color: rgb(0,130,178);
+}
+.blogintro a:active, .blogintro a:hover{
+	text-decoration: underline;
+	color: rgb(0,130,178);
+}
+li a:link, li a:visited, footer a:link, footer a:visited{
+	color: #fff;
+}
+li a:active, li a:hover, footer a:active, footer a:hover{
+	text-decoration: underline;
+	color: #fff;
+}
+
