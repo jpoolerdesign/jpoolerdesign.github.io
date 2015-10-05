@@ -22,10 +22,7 @@ body{
 	margin: auto; */
 	background-image: url("../img/texture.jpg");
 }
-#wrapper{
-	max-width: 90%; 
-	margin: auto;
-}
+
 section{
 	max-width: 75%; 
 	margin: 2em 0em;
@@ -50,13 +47,10 @@ nav a:active, nav a:hover{
 	color: rgb(67,204,255);
 }
 h1{
-	font-family: "Passion One", "Open Sans", sans-serif;
-	letter-spacing: 2px;
 	font-size: 3.5em;
-	text-transform: uppercase;
 	color: #fff;
 }
-h2, h3, h4{
+h1, h2, h3, h4{
 	font-family: "Passion One", "Open Sans", sans-serif;
 	letter-spacing: 2px;
 	text-transform: uppercase;
@@ -78,15 +72,40 @@ h4{
 	color: #fff;
 	margin-bottom: .25em;
 }
-#logo{
-	width: 90px;
+aside{
 	float: left;
-	margin: 0 1em 1.5em 0;
+	width: 25%;
+	text-align: left;
+	padding-left: 2em;
+	margin: 2em 0em;
+	/* background-color: orange; */
 }
-#slogan{
-	font-family: "Covered By Your Grace", "Open Sans", sans-serif;
-	font-size: 1.5em;
-	color: rgb(255,167,72);
+aside img{
+	width: 100%;	
+}
+ul{
+	list-style: none;
+	padding-left: 0;
+}
+li{
+	margin-bottom: .25em;
+}
+footer{
+	clear: both;
+	width: 100%;
+	text-align: center;
+	padding: 1em;
+	background-color: rgb(67,204,255);
+}
+a{
+	text-decoration: none;
+}
+li a:link, li a:visited, footer a:link, footer a:visited{
+	color: #fff;
+}
+li a:active, li a:hover, footer a:active, footer a:hover{
+	text-decoration: underline;
+	color: #fff;
 }
 .level1, .level2, .level3{
 	float: left;
@@ -147,40 +166,27 @@ h4{
 	color: #fff;
 	text-shadow: 2px 2px #000;
 }
-aside{
+#wrapper{
+	max-width: 90%; 
+	margin: auto;
+}
+#logo{
+	width: 90px;
 	float: left;
-	width: 25%;
-	text-align: left;
-	padding-left: 2em;
-	margin: 2em 0em;
-	/* background-color: orange; */
+	margin: 0 1em 1.5em 0;
 }
-aside img{
-	width: 100%;	
+#slogan{
+	font-family: "Covered By Your Grace", "Open Sans", sans-serif;
+	font-size: 1.5em;
+	color: rgb(255,167,72);
 }
-ul{
-	list-style: none;
-	padding-left: 0;
-}
-li{
-	margin-bottom: .25em;
-}
+
 .clearfix:after { 
 	content: "."; 
 	visibility: hidden; 
 	display: block; 
 	height: 0; 
 	clear: both;
-}
-footer{
-	clear: both;
-	width: 100%;
-	text-align: center;
-	padding: 1em;
-	background-color: rgb(67,204,255);
-}
-a{
-	text-decoration: none;
 }
 .level1 a:link, .level1 a:visited, .level2 a:link, .level2 a:visited, .level3 a:link, .level3 a:visited{
 	color: #fff;
@@ -196,11 +202,5 @@ a{
 	text-decoration: underline;
 	color: rgb(0,130,178);
 }
-li a:link, li a:visited, footer a:link, footer a:visited{
-	color: #fff;
-}
-li a:active, li a:hover, footer a:active, footer a:hover{
-	text-decoration: underline;
-	color: #fff;
-}
+
 
