@@ -1,0 +1,81 @@
+/*Imported fonts */
+
+@import url(https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Just+Another+Hand);
+@import url(https://fonts.googleapis.com/css?family=Satisfy);
+
+/*
+Color Guide
+	#636466 = dark gray
+	#003777 = logo blue
+*/
+
+* { margin:0; padding:0; box-sizing:border-box; }
+
+body{
+	font-family: "PT Serif", Helvetica, serif;
+	font-size: 16px;
+	text-align: center;
+	background: url("../img/bgtexture-duo.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 1%;
+	color: #636466;
+}
+div{
+	background: #fff;
+	padding: 1% 5%;
+	box-shadow: 0 0 12px #000000;
+	width: 100%;
+	margin: auto;
+}
+header img{
+	width: 50%;
+	margin-bottom: 1%;
+}
+a{
+	text-decoration: none;
+	color: #003777;
+}
+#slogan{
+	font-family: Satisfy, "PT Serif", Helvetica, serif;
+	font-style: italic;
+	font-size: 1.5em;
+	color: #003777;
+}
+.portfolio{
+	width: 23%;
+	margin: .5%;
+	border: 1px solid #636466;
+}
+
+/* ------------------------------------------------------------- Tablet */
+@media only screen and (min-width: 321px) and (max-width: 768px){
+	.portfolio{
+		width: 32%;
+		margin: .25%;
+	}
+	header img{
+		width: 75%;
+	}
+} 
+
+/* ------------------------------------------------------------- Phone */
+@media only screen and (min-width: 0px) and (max-width: 320px){
+	div{
+		padding: 3%;
+		box-shadow: 0 0 0px #000000;
+		width: 100%;
+	}
+	body{
+		padding: 1.5% 0 0 0;
+	}
+	header img{
+		width: 100%;
+	}
+	.portfolio{
+		width: 48%;
+		margin: .5%;
+	}
+}
+
