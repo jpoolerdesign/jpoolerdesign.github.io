@@ -6,8 +6,8 @@
 
 /*
 Color Guide
-	#636466 = dark gray
-	#003777 = logo blue
+	#636466 = dark gray | 99,100,102
+	#003777 = logo blue | 0,55,119
 */
 
 * { margin:0; padding:0; box-sizing:border-box; }
@@ -43,9 +43,35 @@ footer img{
 	margin: auto;
 }
 .portfolio{
+	width:100%;
+	display:block;
+}
+.hover-text {
+	float:left;
 	width: 23%;
 	margin: .5%;
 	border: 1px solid #636466;
+	position: relative;
+}
+h3{
+	display:none;
+}
+.hover-text:hover > h3{
+	background-color:rgba(0,55,119,.85);
+	color:rgba(255,255,255,1);
+	padding:10%;
+	position:absolute;
+	top:0;
+	left:0;
+	height: 100%;
+	width: 100%;
+	display:block;
+/*	z-index: 2;*/
+}
+
+#portfolio div:hover .overlay3 {
+	background-color:rgba(0,150,136,1);
+	color:rgba(255,255,255,1);
 }
 
 /* ------------------------------------------------------------- Tablet */
@@ -56,7 +82,7 @@ footer img{
 	header img{
 		width: 75%;
 	}
-	.portfolio{
+	.hover-text{
 		width: 32%;
 		margin: .25%;
 	}
@@ -78,9 +104,12 @@ footer img{
 	header img{
 		width: 100%;
 	}
-	.portfolio{
+	.hover-text{
 		width: 48%;
 		margin: .5%;
+	}
+	h3{
+		font-size: 1em;
 	}
 	footer img{
 		width: 22%;

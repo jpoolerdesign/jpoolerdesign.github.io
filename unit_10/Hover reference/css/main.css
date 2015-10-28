@@ -6,7 +6,7 @@
 
 /*
 Color Guide
-	#636466 = dark gray
+	#636466 = dark gray | 22, 3, 40
 	#003777 = logo blue
 */
 
@@ -58,15 +58,13 @@ a{
 	margin: .5%;
 	border: 1px solid #636466;
 	position: relative;
-
 }
 h3{
 	display:none;
-
 }
 
 .hover-text:hover > h3{
-	background-color:rgba(0,150,136,1);
+	background-color:rgba(22,3,40,1);
 	color:rgba(255,255,255,1);
 	padding:30% 0;
 	position:absolute;
